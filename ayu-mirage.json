@@ -210,7 +210,7 @@
 		},
 		{
 			"name": "Function, Special Method, Block Level",
-			"scope": "entity.name.function, keyword.other.special-method, meta.block-level, support.function.console.js",
+			"scope": "entity.name.function, keyword.other.special-method, meta.block-level, support.function.console.js, support.function.dom.js",
 			"settings": {
 				"foreground": "#FFD580"
 			}
