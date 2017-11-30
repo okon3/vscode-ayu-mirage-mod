@@ -285,7 +285,8 @@
 			"name": "Attributes",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#FFAE57"
+				"foreground": "#FFAE57",
+				"fontStyle": "italic"
 			}
 		},
 		{
