@@ -213,7 +213,7 @@
     },
     {
       "name": "JSX Tag",
-      "scope": "meta.tag.jsx",
+      "scope": "meta.tag.jsx, meta.jsx.children.js.jsx",
       "settings": {
         "foreground": "#D9D7CE"
       }
