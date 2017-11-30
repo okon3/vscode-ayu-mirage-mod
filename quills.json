@@ -177,7 +177,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#D9D7CE"
+        "foreground": "#d4bfff"
       }
     },
     {
@@ -212,7 +212,7 @@
     {
       "name": "Function, Special Method, Block Level",
       "scope":
-        "entity.name.function, keyword.other.special-method, meta.block-level, support.function.console.js, support.function.dom.js",
+        "entity.name.function, keyword.other.special-method, meta.block-level, support.function.console.js, support.function.dom.js, support.function.js.jsx",
       "settings": {
         "foreground": "#FFD580"
       }
@@ -239,6 +239,13 @@
       "settings": {
         "fontStyle": "normal",
         "foreground": "#BAE67E"
+      }
+    },
+    {
+      "name": "String Quotes",
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#CBE645"
       }
     },
     {
