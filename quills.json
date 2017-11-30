@@ -175,9 +175,18 @@
     },
     {
       "name": "Variable",
-      "scope": "variable",
+      "scope":
+        "variable, variable.other.object.js.jsx, support.variable.property.dom",
       "settings": {
         "foreground": "#d4bfff"
+      }
+    },
+    {
+      "name": "Object Attribute",
+      "scope":
+        "variable.other.property.js.jsx, support.variable.property.dom.js.jsx",
+      "settings": {
+        "foreground": "#95e6cb"
       }
     },
     {
@@ -219,7 +228,8 @@
     },
     {
       "name": "Other Variable, String Link",
-      "scope": "support.other.variable, string.other.link",
+      "scope":
+        "support.other.variable, string.other.link, support.variable.dom",
       "settings": {
         "foreground": "#F07178"
       }
@@ -296,8 +306,8 @@
       }
     },
     {
-      "name": "Attributes",
-      "scope": "entity.other.attribute-name",
+      "name": "Attributes, Object Attributes",
+      "scope": "entity.other.attribute-name, meta.object-literal.key.js.jsx",
       "settings": {
         "foreground": "#FFAE57",
         "fontStyle": "italic"
