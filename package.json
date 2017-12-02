@@ -1,37 +1,32 @@
 {
-  "name": "quills",
-  "displayName": "Quills",
-  "description": "A simple theme based on AYU Mirage.",
-  "version": "1.0.0",
-  "publisher": "chrisburgin95",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chrisburgin95/vscode-quills"
-  },
-  "engines": {
-    "vscode": "^1.18.0"
-  },
-  "categories": ["Themes"],
-  "keywords": ["icon-theme", "theme", "quills"],
-  "icon": "assets/logo.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Quills",
-        "uiTheme": "vs-dark",
-        "path": "./quills.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "quills",
-        "label": "Quills",
-        "path": "./quills-icons.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "vsce": "1.22.0"
-  }
+	"name": "ayu-miragemod",
+	"displayName": "Ayu MirageMod",
+	"description": "Slight modifications over the great Ayu Mirage theme",
+	"version": "0.0.1",
+	"publisher": "okon3",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/okon3/vscode-ayu-mirage-mod"
+	},
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icon-theme",
+		"theme",
+		"ayu"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ayu Mirage Mod",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ayu Mirage Mod-color-theme.json"
+			}
+		]
+	}
 }
